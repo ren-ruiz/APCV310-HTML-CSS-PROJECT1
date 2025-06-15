@@ -1,0 +1,78 @@
+/* Global Styles */
+body {
+    background-color: white;
+    color: #2c3e50;
+    font-family: Georgia, Garamond, serif;
+    font-size: 14pt;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Heading Styles */
+h1, h2, h3 {
+    text-decoration: underline;
+    padding: 8px 12px;
+    border-radius: 4px;
+    color: #003366;       /* Dark blue */
+    background-color: #cce6ff; /* Light blue */
+    font-family: 'Century Gothic', Futura, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 28pt;
+    font-weight: bold;
+}
+
+h2, h3 {
+    text-align: left;
+    font-size: 20pt;
+    font-weight: normal;
+}
+
+/* Content Styles */
+.project-description, 
+.features, 
+.technology {
+    margin-bottom: 30px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 20px 0;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Link Styles */
+a {
+    color: #003366;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.home-link {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #cce6ff;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.home-link:hover {
+    background-color: #99ccff;
+    text-decoration: underline;
+}
